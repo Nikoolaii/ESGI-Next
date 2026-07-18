@@ -20,7 +20,7 @@ export function CityMap({ latitude, longitude, name }: CityMapProps) {
       <iframe
         title={`Carte de ${name}`}
         src={embedUrl}
-        className="h-64 w-full border-0 sm:h-80"
+        className="block h-64 w-full border-0 bg-slate-800 sm:h-80"
         loading="lazy"
       />
       <div className="border-t border-white/10 bg-white/5 px-4 py-2 text-xs text-slate-400">

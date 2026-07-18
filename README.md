@@ -100,7 +100,23 @@ Les appels Open-Meteo utilisent `fetch` avec `next: { revalidate }` :
 
 ## Captures d'écran
 
-> À ajouter après lancement local : accueil, détail ville, favoris, comparaison, qualité de l'air.
+### Page d'accueil — recherche, favoris et historique
+
+![Page d'accueil avec favoris et historique des recherches](docs/screenshots/accueil.png)
+
+### Détail d'une ville — conditions et prévisions
+
+![Page de détail météo pour Paris](docs/screenshots/detail-ville.png)
+
+### Qualité de l'air (fonctionnalité originale)
+
+![Indice AQI et polluants pour Paris](docs/screenshots/qualite-air.png)
+
+### Comparaison météo entre deux villes
+
+![Comparaison côte à côte Paris vs Lyon](docs/screenshots/comparaison.png)
+
+> Pour régénérer les captures : lancer `npm run dev`, puis `node scripts/capture-screenshots.cjs`.
 
 ## Auteur
 
